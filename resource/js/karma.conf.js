@@ -1,29 +1,26 @@
-// Karma configuration
-// Generated on Tue Dec 03 2013 02:26:36 GMT+0700 (ICT)
+    // Karma configuration
+    // Generated on Tue Dec 03 2013 02:26:36 GMT+0700 (ICT)
 
 module.exports = function(config) {
-  config.set({
+    config.set({
 
     // base path, that will be used to resolve files and exclude
     basePath: '',
 
 
     // frameworks to use
-    frameworks: ['jasmine', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-        'angularJS/angular.js',
-        'angularJS/angular-*.js',
-        'appJS/*.js',
-        'test/unit/*.js'
+        'test/unit/firstTest.js'
     ],
 
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
@@ -60,8 +57,7 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['PhantomJS', 'PhantomJS_custom'],
-
+    browsers: ['Chrome'],
 
     // If browser does not capture in given timeout [ms], kill it
     captureTimeout: 60000,
@@ -69,19 +65,6 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
-    singleRun: false,
-
-      customLaunchers: {
-          'PhantomJS_custom': {
-              base: 'PhantomJS',
-              options: {
-                  windowName: 'my-window',
-                  settings: {
-                      webSecurityEnabled: false
-                  }
-              },
-              flags: ['--remote-debugger-port=9000']
-          }
-      }
-  });
+    singleRun: false
+    });
 };

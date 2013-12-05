@@ -7,6 +7,7 @@
     <orderEntry type="library" name="jQuery-2.0.0" level="application" />
     <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
     <orderEntry type="library" name="angular.min" level="application" />
+    <orderEntry type="library" name="Karma-Jasmine" level="application" />
   </component>
 </module>
 
