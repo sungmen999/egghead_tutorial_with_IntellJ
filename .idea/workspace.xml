@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6a389c0-c51e-442d-b8c6-b92de4a3798a" name="Default" comment="" />
+    <list default="true" id="a6a389c0-c51e-442d-b8c6-b92de4a3798a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial6/index.html" afterPath="$PROJECT_DIR$/tutorial6/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="simpleWeb.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a6a389c0-c51e-442d-b8c6-b92de4a3798a" time="1386002851834" ignored="false" />
-    <file path="/Dummy.txt" changelist="a6a389c0-c51e-442d-b8c6-b92de4a3798a" time="1386227498798" ignored="false" />
+    <file path="/Dummy.txt" changelist="a6a389c0-c51e-442d-b8c6-b92de4a3798a" time="1386229705279" ignored="false" />
     <file path="/fragment.java" changelist="a6a389c0-c51e-442d-b8c6-b92de4a3798a" time="1386010724375" ignored="false" />
     <file path="/karma.conf.js" changelist="a6a389c0-c51e-442d-b8c6-b92de4a3798a" time="1386014337369" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,39 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorial6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/js/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="22" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firstTest.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/js/test/unit/firstTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="45" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.43345323">
-              <folding>
-                <element signature="e#0#150#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="firstController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/js/appJS/firstController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
+            <state line="10" column="47" selection-start="214" selection-end="214" vertical-scroll-proportion="0.28195488">
               <folding />
             </state>
           </provider>
@@ -125,10 +99,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tutorial6/index.html" />
         <option value="$PROJECT_DIR$/resource/js/appJS/firstController.js" />
         <option value="$PROJECT_DIR$/resource/js/karma.conf.js" />
         <option value="$PROJECT_DIR$/resource/js/test/unit/firstTest.js" />
+        <option value="$PROJECT_DIR$/tutorial6/index.html" />
       </list>
     </option>
   </component>
@@ -210,21 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,15 +476,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resource/js/test/unit/firstTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="6" selection-start="2102" selection-end="2102" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#150#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/js/appJS/firstController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
@@ -600,20 +551,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/js/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="22" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/js/appJS/firstController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="44" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
@@ -623,10 +560,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/js/test/unit/firstTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="45" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.43345323">
+        <state line="45" column="34" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.43345323">
           <folding>
             <element signature="e#0#150#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/js/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="22" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.7032374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="47" selection-start="214" selection-end="214" vertical-scroll-proportion="0.28195488">
+          <folding />
         </state>
       </provider>
     </entry>
