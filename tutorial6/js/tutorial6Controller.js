@@ -1,14 +1,7 @@
-function tutorial6ControllerFirst ($scope, sharedService){
-	$scope.message = sharedService;
-};
+'use strict';
 
-function tutorial6ControllerSecond ($scope, sharedService) {
-	$scope.message = sharedService;
-
-	$scope.reversedMessage = function(){
-		return $scope.message.text.split("").reverse().join("");
-	};
-};
-
-tutorial6ControllerFirst.$inject = ['$scope', 'mySharedService'];
-tutorial6ControllerSecond.$inject = ['$scope', 'mySharedService']
+app.controller('tutorial6Controller', function($scope, mySharedService, notify) {
+    var ctrl = this
+    $scope.message = 'Hello World!';
+    $scope.textService = mySharedService.text;
+});
